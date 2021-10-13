@@ -2,7 +2,25 @@ const div = document.getElementById("divMaster")
 const blackbtn = document.getElementById("blackbtn");
 const whitebtn = document.getElementById("whitebtn");
 const redbtn = document.getElementById("redbtn");
+const eduardo = document.getElementById("eduardo")
+const removebtn = document.getElementById("removeborder")
+const addbtn = document.getElementById("addborder")
 
+removebtn.addEventListener("mouseover",()=>{
+    const boxs = div.querySelectorAll(".text")
+    boxs.forEach(box => removeborder.addEventListener("click",()=>{
+        box.style.removeProperty("border")
+    }))
+
+})
+
+addbtn.addEventListener("mouseover",()=>{
+    const boxs = div.querySelectorAll(".text")
+    boxs.forEach(box => addborder.addEventListener("click",()=>{
+        box.style.border = "0.5px black solid"
+    }))
+
+})
 
 
 
