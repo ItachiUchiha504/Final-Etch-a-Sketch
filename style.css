@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+button{
+    border-radius: 5px;
+    padding: 4px 8px;
+    background-color: white;
+    border: 0px transparent;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: rgb(250, 20, 20);
+}
+
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.mainCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 65vh;
+    gap: 0px;
+}
+
+.text{
+    width: 10px;
+    height: 10px;
+    border: 0.1px black solid;
+    background-color: white;
+}
+
+.leftPanel, .rightPanel{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    border: dotted black 1px ;
+    width: 200px;
+    height: 350px;
+}
+
+#divMaster {
+    display: grid;
+    grid-template-columns: repeat(50,10px);
+    grid-template-rows: repeat(50,10px);
+    border: white 1px solid;
+    width: 500px;
+    height: 500px;
+}
+
+.chooseColor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.red {
+    background-color: red;
+}
+
+.gatito {
+    margin-top: 50px;
+}

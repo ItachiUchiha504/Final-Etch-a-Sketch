@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="shorcut icon" type="image/png" href="/Images/favicon.png">
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Etch A Sketch</h1>
+    <div class="mainCard">
+        <div class="leftPanel">
+            <div class="chooseColor">
+                <div class="pixelColor">Choose Background  Color</div>
+                    <div class="buttons">
+                        <button>BLACK</button>
+                        <button>WHITE</button>
+                        <button>RANDOM</button>
+                    </div>
+
+            </div>
+            <div class="chooseColor">
+                <div class="backgroundColor"> Choose BRUSH Color </div> 
+                    <div class="buttons">
+                        <button id="blackbtn">BLACK</button>
+                        <button id="whitebtn">ERASER</button>
+                        <button id="redbtn">RED</button>
+                        
+
+                </div>
+            </div>
+
+            <div><button onClick="window.location.reload();">ERASE ALL</button></div>
+
+        </div>
+        <div class="middlePanel">
+            <div id="divMaster"></div>
+            
+        </div>
+        <div class="rightPanel">
+            <div>Choose Grid Size</div>
+            <div class="buttons">
+                <button>25 x 25</button>
+                <button>50 x 50</button>
+                <button>100 100</button>
+            </div>
+        </div>
+    </div>
+    <div class="gatito">Made with Love by Eduardo Willingham for his Gatinha</div>
+    
+</body>
+</html>
