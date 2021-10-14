@@ -5,6 +5,32 @@ const redbtn = document.getElementById("redbtn");
 const eduardo = document.getElementById("eduardo")
 const removebtn = document.getElementById("removeborder")
 const addbtn = document.getElementById("addborder")
+const bluebtn = document.getElementById("bluebtn")
+const greenbtn = document.getElementById("greenbtn")
+const yellowbtn = document.getElementById("yellowbtn")
+
+
+bluebtn.addEventListener("click",()=>{
+    const boxs = div.querySelectorAll(".text")
+    boxs.forEach(box => box.addEventListener("mouseover",()=>{
+        box.style.backgroundColor = "blue"
+    }))
+})
+
+greenbtn.addEventListener("click",()=>{
+    const boxs = div.querySelectorAll(".text")
+    boxs.forEach(box => box.addEventListener("mouseover",()=>{
+        box.style.backgroundColor = "green"
+    }))
+})
+
+yellowbtn.addEventListener("click",()=>{
+    const boxs = div.querySelectorAll(".text")
+    boxs.forEach(box => box.addEventListener("mouseover",()=>{
+        box.style.backgroundColor = "yellow"
+    }))
+})
+
 
 removebtn.addEventListener("mouseover",()=>{
     const boxs = div.querySelectorAll(".text")

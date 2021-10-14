@@ -14,9 +14,7 @@ button{
     font-size: 12px;
 }
 
-button:hover{
-    background-color: rgb(250, 20, 20);
-}
+
 
 h1{
     font-family: 'Hachi Maru Pop', cursive;
@@ -81,3 +79,26 @@ h1{
     margin-top: 50px;
 }
 
+#blackbtn:hover {
+    background-color: black;
+}
+
+#whitebtn:hover{
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: red;
+}
+
+#bluebtn:hover{
+    background-color: blue;
+}
+
+#yellowbtn:hover{
+    background-color: yellow;
+}
+
+#greenbtn:hover{
+    background-color: green;
+}
